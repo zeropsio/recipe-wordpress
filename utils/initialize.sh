@@ -10,3 +10,5 @@ if ! $(wp core is-installed --allow-root); then
 else
   echo "Wordpres core already installed."
 fi
+
+wp theme activate twentytwentyfour

@@ -9,7 +9,8 @@
         "keycdn/cache-enabler": "^1.8",
         "wpackagist-plugin/autoptimize": "^3.1",
         "wpackagist-plugin/elementor": "^3.15",
-        "wpackagist-plugin/wp-simple-firewall": "^20.0"
+        "wpackagist-plugin/wp-simple-firewall": "^20.0",
+        "wpackagist-theme/twentytwentyfour": "^1"
     },
     "extra": {
         "installer-paths": {

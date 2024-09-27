@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "003ca48d1a539dca644e9bf32d98091d",
+    "content-hash": "2f233d9e5ffce0e7573b425c1a73bcba",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1347,6 +1347,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-simple-firewall/"
+        },
+        {
+            "name": "wpackagist-theme/twentytwentyfour",
+            "version": "1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/twentytwentyfour/",
+                "reference": "1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/twentytwentyfour.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/twentytwentyfour/"
         }
     ],
     "packages-dev": [],
