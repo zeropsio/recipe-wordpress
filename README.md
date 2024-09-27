@@ -4,8 +4,8 @@
 #yamlPreprocessor=on
 services:
   - hostname: app
-    type: php-nginx@8.1
-    buildFromGit: https://github.com/horejsi-prsi/prsi-wp-starter
+    type: php-nginx@8.3
+    buildFromGit: https://github.com/zeropsio/recipe-wordpress
     enableSubdomainAccess: true
     envSecrets:
       WORDPRESS_TITLE: WordPress on Zerops
