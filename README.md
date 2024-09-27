@@ -1,5 +1,8 @@
 # Zerops x Wordpress
 
+> [!CAUTION]
+> This recipe is work in progress.
+
 ```yaml
 #yamlPreprocessor=on
 services:
