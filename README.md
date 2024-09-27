@@ -5,6 +5,9 @@
 
 ```yaml
 #yamlPreprocessor=on
+project:
+  name: wodpress-websites
+
 services:
   - hostname: app
     type: php-nginx@8.3
