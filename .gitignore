@@ -1,0 +1,20 @@
+# Composer dependencies
+/vendor/
+/wp/
+/wp-content/vendor
+
+# WordPress core
+!wp-content/
+!wp-content/mu-plugins
+wp-content/plugins/*
+wp-content/themes/*
+wp-content/autoptimize_404_handler.php
+wp-content/cache
+wp-content/settings
+wp-content/uploads
+
+# Include manually managed plugins and themes
+!/wp-content/themes/astra-child/
+!/wp-content/plugins/astra-addon/
+!/wp-content/themes/index.php
+!/wp-content/plugins/index.php
