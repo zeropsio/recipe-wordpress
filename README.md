@@ -38,7 +38,7 @@ services:
     type: object-storage
     objectStorageSize: 2
     objectStoragePolicy: public-read
-    pririty: 10
+    priority: 10
 
   - hostname: redis
     type: valkey@7.2
